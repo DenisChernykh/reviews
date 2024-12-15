@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-grey-500: #9ca3af;
+}
+
+
+
+body {
+	font-family: "Poppins", sans-serif;
+}
