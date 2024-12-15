@@ -1,8 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Разработано приложение на Next.js, позволяющее 
+1. Загружать список отзывов для одной компании через redux-saga .
+2. Фильтровать отзывы:
+По платформе (Google, Яндекс, 2ГИС).
+По диапазону оценок (рейтинг от и до).
+3. Сортировать отзывы:
+По времени (новые/старые).
+По оценке (по возрастанию/убыванию).
+4. Отображать отфильтрованный и отсортированный список в табличной форме.
